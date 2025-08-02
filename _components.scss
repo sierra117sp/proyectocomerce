@@ -1,0 +1,59 @@
+.btn-group {
+  .btn-check + .btn-outline-warning {
+    border-color: $warning-color;
+    color: $warning-color;
+    transition: all $transition-normal;
+    
+    &:hover {
+      background: $warning-color;
+      color: $dark-color;
+      transform: translateY(-1px);
+    }
+    
+    &:checked,
+    &.active {
+      background: $warning-color !important;
+      border-color: $warning-color !important;
+      color: $dark-color !important;
+      box-shadow: $shadow-glow;
+    }
+  }
+}
+
+.btn {
+  position: relative;
+  overflow: hidden;
+  transition: all $transition-normal;
+  
+  &.btn-warning {
+    background: linear-gradient(45deg, $warning-color, lighten($warning-color, 10%));
+    border-color: $warning-color;
+    color: $dark-color;
+    font-weight: 600;
+    
+    &:hover {
+      background: linear-gradient(45deg, lighten($warning-color, 10%), $warning-color);
+      transform: translateY(-2px);
+      box-shadow: $shadow-md;
+    }
+  }
+  
+  &.btn-outline-warning {
+    &:hover {
+      background: $warning-color;
+      transform: translateY(-1px);
+    }
+  }
+  
+  &.btn-outline-danger {
+    &:hover {
+      transform: translateY(-1px);
+    }
+  }
+  
+  &.btn-sm {
+    i {
+      font-size: $font-size-sm;
+    }
+  }
+}

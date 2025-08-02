@@ -1,106 +1,361 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Osiris shop</title>
+    <title>Osiris Shop</title>
 </head>
+
 <body>
-    <header>
-        <i><img width="25" src="img/options_3817976.png" alt="Icono Menu"></i>
-        <i><img class="log-1" width="100" src="img/logo 2.0.png" alt="Logo Osiris"></i>
-        <i><img class="log-2" width="100" src="img/logo 2.0.png" alt="Logo Osiris"></i>
-        <i><img width="25" src="img/cart_12170261.png" alt="Icono Carrito"></i>
+    <!doctype html>
+    <html lang="en">
 
-    </header>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>Osiris Shop</title>
+    </head>
 
-    <main>
-        <section class="banner">
-            <h2>Nuevos Lanzamientos</h2>
-            <p>Se el Primero en tener el poder de nuestros nuevos productos</p>
-        </section>
-
-        <section class="products">
-            <article>
-                <img width="150" src="img/94.jpg.e45e42de15cd6477de5941b9696697c0.jpg" alt="Armadura">
-                <h3>Armadura Donate Heavy</h3>
-                <p>500.00 Dc</p>
-            </article>
-
-            <article>
-                <img width="150" src="img/96.jpg.35ce029040bf339cd39b72268e3ce5aa.jpg" alt="Armadura">
-                <h3>Armadura Donate Light</h3>
-                <p>500.00 Dc</p>
-            </article>
-
-            <article>
-                <img width="150" src="img/98.jpg.b0c538511144547b912719c4939b8e8b.jpg" alt="Armadura">
-                <h3>Armadura Donate Robe</h3>
-                <p>500.00 Dc</p>
-            </article>
-
-            <article>
-                <img width="150" src="img/Shot00000.jpg.affb772b9b8064100989ea22965521c2.jpg" alt="Armadura Heavy">
-                <h3>Armadura Heavy Gold</h3>
-                <p>700.00 Dc</p>
-            </article>
-
-            <article>
-                <img width="150" src="img/Shot00000.jpg.b456f9528c361f2e4426a543170dfb38.jpg" alt="Armadura Light">
-                <h3>Armadura Light Gold</h3>
-                <p>700.00 Dc</p>
-            </article>
-
-            <article>
-                <img width="150" src="img/Shot00001.jpg.b72eb45180325e607b7976df5f79adbb.jpg" alt="Armadura Robe">
-                <h3>Armadura Robe Gold</h3>
-                <p>700.00 Dc</p>
-            </article>
-
-                        <article>
-                <img width="150" src="img/Shot00000.jpg.affb772b9b8064100989ea22965521c2.jpg" alt="Armadura Heavy">
-                <h3>Armadura Heavy Gold</h3>
-                <p>700.00 Dc</p>
-            </article>
-
-            <article>
-                <img width="150" src="img/Shot00000.jpg.b456f9528c361f2e4426a543170dfb38.jpg" alt="Armadura Light">
-                <h3>Armadura Light Gold</h3>
-                <p>700.00 Dc</p>
-            </article>
-
-            <article>
-                <img width="150" src="img/Shot00001.jpg.b72eb45180325e607b7976df5f79adbb.jpg" alt="Armadura Robe">
-                <h3>Armadura Robe Gold</h3>
-                <p>700.00 Dc</p>
-            </article>
-        </section>
-
-        <section class="cart">
-            <h2>CARRITO</h2>
-            <div>
-                <img width="20" src="img/cart_12170261.png" alt="Carrito">
-                <p>Armadura Heavy</p>
-                <p>$500 Dc</p>
-                <i><img width="20" src="img/trash-bin_18899219.png" alt="Icono quitar" class="delete-icon"></i>
+    <body>
+        <header class="navbar navbar-dark bg-primary shadow-lg sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mx-auto" href="#">
+                    <img width="100" src="img/osirisstudio.png" alt="logo Osiris">
+                </a>
+                <button class="btn btn-outline-light position-relative" data-bs-toggle="offcanvas"
+                    data-bs-target="#cartOffcanvas">
+                    <i class="bi bi-cart3 fs-4"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        
+                    </span>
+                </button>
             </div>
-            <div>
-                <img width="20" src="img/cart_12170261.png" alt="Carrito">
-                <p>Armadura Heavy</p>
-                <p>$500 Dc</p>
-                <i><img width="20" src="img/trash-bin_18899219.png" alt="Icono quitar" class="delete-icon"></i>
+        </header>
+        <div class="offcanvas offcanvas-start bg-dark text-light" tabindex="-1" id="sidebarMenu">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismis="offcanvas"></button>
             </div>
-            <div>
-                <img width="20" src="img/cart_12170261.png" alt="Carrito">
-                <p>Armadura Heavy</p>
-                <p>$500 Dc</p>
-                <i><img width="20" src="img/trash-bin_18899219.png" alt="Icono quitar" class="delete-icon"></i>
+            <div class="offcanvas-body">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="bi bi-house m3-2"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="bi bi-shield me-2"></i>Armaduras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="bi bi-sword me-2"></i>Armas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="bi bi-gem me-2"></i>Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="bi bi-person me-2"></i>Perfil</a>
+                    </li>
+                </ul>
             </div>
-        </section>
-    </main>
+        </div>
+        <main class="container-fluid">
+            <section class="banner text-center py-5 my-4 rounded-3 shadow"
+                style="background: linear-gradient(135deg, #6f42c1 0%, #e83e8c 100%);">
+                <h2 class="display-4 fw-bold text-warning mb-3">
+                    <i class="bi bi-stars me-2"></i>Nuevos Lanzamientos
+                </h2>
+                <p class="lead text-light">Sé el primero en tener el poder de nuestros nuevos productos</p>
+                <button class="btn btn-warning btn-lg mt-3">
+                    <i class="bi bi-lightning me-2"></i>Explorar Ahora
+                </button>
+            </section>
+
+            <section class="products mb-5">
+                <h3 class="text-center mb-4 text-warning">
+                    <i class="bi bi-shop me-2"></i>Productos Destacados
+                </h3>
+
+                <div class="text-center mb-4">
+                    <div class="btn-group" role="group">
+                        <input type="radio" class="btn-check" name="filter" id="all" checked>
+                        <label class="btn btn-outline-warning" for="all">Todos</label>
+
+                        <input type="radio" class="btn-check" name="filter" id="donate">
+                        <label class="btn btn-outline-warning" for="donate">Donate</label>
+
+                        <input type="radio" class="btn-check" name="filter" id="gold">
+                        <label class="btn btn-outline-warning" for="gold">Gold</label>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card bg-secondary text-light h-100 shadow">
+                            <div class="position-relative">
+                                <img src="img/94.jpg.e45e42de15cd6477de5941b9696697c0.jpg" class="card-img-top"
+                                    alt="Armadura" style="height: 200px; object-fit: cover;">
+                                <span class="badge bg-primary position-absolute top-0 end-0 m-2">Nuevo</span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-shield-shaded me-2 text-warning"></i>Armadura Donate Heavy
+                                </h5>
+                                <p class="card-text">Armadura pesada para máxima protección en combate.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="h5 text-warning mb-0">500.00 Dc</span>
+                                    <div class="btn-group">
+                                        <button class="btn btn-warning btn-sm">
+                                            <i class="bi bi-cart-plus"></i>
+                                        </button>
+                                        <button class="btn btn-outline-warning btn-sm">
+                                            <i class="bi bi-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card bg-secondary text-light h-100 shadow">
+                            <div class="position-relative">
+                                <img src="img/96.jpg.35ce029040bf339cd39b72268e3ce5aa.jpg" class="card-img-top"
+                                    alt="Armadura" style="height: 200px; object-fit: cover;">
+                                <span class="badge bg-primary position-absolute top-0 end-0 m-2">Nuevo</span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-shield me-2 text-warning"></i>Armadura Donate Light
+                                </h5>
+                                <p class="card-text">Armadura ligera para mayor agilidad y velocidad.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="h5 text-warning mb-0">500.00 Dc</span>
+                                    <div class="btn-group">
+                                        <button class="btn btn-warning btn-sm">
+                                            <i class="bi bi-cart-plus"></i>
+                                        </button>
+                                        <button class="btn btn-outline-warning btn-sm">
+                                            <i class="bi bi-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card bg-secondary text-light h-100 shadow">
+                            <div class="position-relative">
+                                <img src="img/98.jpg.b0c538511144547b912719c4939b8e8b.jpg" class="card-img-top"
+                                    alt="Armadura" style="height: 200px; object-fit: cover;">
+                                <span class="badge bg-primary position-absolute top-0 end-0 m-2">Nuevo</span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-magic me-2 text-warning"></i>Armadura Donate Robe
+                                </h5>
+                                <p class="card-text">Túnica mágica para hechiceros y magos poderosos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="h5 text-warning mb-0">500.00 Dc</span>
+                                    <div class="btn-group">
+                                        <button class="btn btn-warning btn-sm">
+                                            <i class="bi bi-cart-plus"></i>
+                                        </button>
+                                        <button class="btn btn-outline-warning btn-sm">
+                                            <i class="bi bi-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card bg-secondary text-light h-100 shadow">
+                            <div class="position-relative">
+                                <img src="img/Shot00000.jpg.affb772b9b8064100989ea22965521c2.jpg" class="card-img-top"
+                                    alt="Armadura Heavy" style="height: 200px; object-fit: cover;">
+                                <span class="badge bg-warning position-absolute top-0 end-0 m-2">Premium</span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-shield-fill-check me-2 text-warning"></i>Armadura Heavy Gold
+                                </h5>
+                                <p class="card-text">Armadura dorada de élite con resistencia superior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="h5 text-warning mb-0">700.00 Dc</span>
+                                    <div class="btn-group">
+                                        <button class="btn btn-warning btn-sm">
+                                            <i class="bi bi-cart-plus"></i>
+                                        </button>
+                                        <button class="btn btn-outline-warning btn-sm">
+                                            <i class="bi bi-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card bg-secondary text-light h-100 shadow">
+                            <div class="position-relative">
+                                <img src="img/Shot00000.jpg.b456f9528c361f2e4426a543170dfb38.jpg" class="card-img-top"
+                                    alt="Armadura Light" style="height: 200px; object-fit: cover;">
+                                <span class="badge bg-warning position-absolute top-0 end-0 m-2">Premium</span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-shield-check me-2 text-warning"></i>Armadura Light Gold
+                                </h5>
+                                <p class="card-text">Armadura dorada ligera para guerreros ágiles.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="h5 text-warning mb-0">700.00 Dc</span>
+                                    <div class="btn-group">
+                                        <button class="btn btn-warning btn-sm">
+                                            <i class="bi bi-cart-plus"></i>
+                                        </button>
+                                        <button class="btn btn-outline-warning btn-sm">
+                                            <i class="bi bi-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card bg-secondary text-light h-100 shadow">
+                            <div class="position-relative">
+                                <img src="img/Shot00001.jpg.b72eb45180325e607b7976df5f79adbb.jpg" class="card-img-top"
+                                    alt="Armadura Robe" style="height: 200px; object-fit: cover;">
+                                <span class="badge bg-warning position-absolute top-0 end-0 m-2">Premium</span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-stars me-2 text-warning"></i>Armadura Robe Gold
+                                </h5>
+                                <p class="card-text">Túnica dorada con poderes mágicos ancestrales.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="h5 text-warning mb-0">700.00 Dc</span>
+                                    <div class="btn-group">
+                                        <button class="btn btn-warning btn-sm">
+                                            <i class="bi bi-cart-plus"></i>
+                                        </button>
+                                        <button class="btn btn-outline-warning btn-sm">
+                                            <i class="bi bi-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="cartOffcanvas">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">
+                    <i class="bi bi-cart3 me-2"></i>Mi Carrito
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="card bg-secondary mb-2">
+                    <div class="card-body py-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="card-title mb-1">Armadura Heavy</h6>
+                                <small class="text-warning">500.00 Dc</small>
+                            </div>
+                            <button class="btn btn-sm btn-outline-danger">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-secondary mb-2">
+                    <div class="card-body py-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="card-title mb-1">Armadura Light</h6>
+                                <small class="text-warning">500.00 Dc</small>
+                            </div>
+                            <button class="btn btn-sm btn-outline-danger">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-secondary mb-2">
+                    <div class="card-body py-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="card-title mb-1">Armadura Robe</h6>
+                                <small class="text-warning">500.00 Dc</small>
+                            </div>
+                            <button class="btn btn-sm btn-outline-danger">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-auto">
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="h5">Total:</span>
+                        <span class="h5 text-warning">1500.00 Dc</span>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-warning">
+                            <i class="bi bi-credit-card me-2"></i>Proceder al Pago
+                        </button>
+                        <button class="btn btn-outline-danger">
+                            <i class="bi bi-trash me-2"></i>Vaciar Carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-primary text-light py-4 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5><i class="bi bi-shop me-2"></i>Osiris Shop</h5>
+                        <p>Tu tienda de confianza para equipo épico.</p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <h6>Síguenos</h6>
+                        <a href="#" class="text-light me-2"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#" class="text-light me-2"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-instagram fs-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+    </html>
 </body>
+
 </html>
